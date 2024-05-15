@@ -1,0 +1,30 @@
+
+
+/* Step 2: Grouped selector to apply one font to all heading elements */
+h1, h2, h3 {
+  font-family: 'montserrat';
+}
+
+/* Step 3: Style the <h1> */
+h1 {
+  font-size: 46px;
+  letter-spacing: 2.5px; 
+  text-align: center;
+  color: #4c84af; 
+}
+
+/* Step 4: Grouped selector to apply the other font to all body text */
+body, p, a, ul, li {
+  font-family:"lobster";
+}
+
+/* Step 5: Add a span inside the paragraph and change its color */
+p span {
+  color: #FF5733; 
+}
+
+/* Step 6: Style the <h3> */
+h3 {
+  font-size: 30px; 
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); 
+}
