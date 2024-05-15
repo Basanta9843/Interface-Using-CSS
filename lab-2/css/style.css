@@ -15,7 +15,7 @@ h1 {
 
 /* Step 4: Grouped selector to apply the other font to all body text */
 body, p, a, ul, li {
-  font-family:"lobster";
+  font-family:"oswald";
 }
 
 /* Step 5: Add a span inside the paragraph and change its color */
