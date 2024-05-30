@@ -1,0 +1,87 @@
+/* General Styles */
+body {
+    font-family: 'sevillana', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: aquamarine;
+    color: #333;
+}
+
+/* Header Styles */
+header {
+    background-color:lightgoldenrodyellow;
+    color:firebrick;
+    text-align: center;
+    padding: 1.5em 0;
+}
+
+header h1 {
+    font-family: 'Georgia', serif;
+    margin: 1em 0;
+}
+
+header h2 {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0.5;
+}
+
+/* Main Content Styles */
+main {
+    padding: 2em;
+    max-width: 800px;
+    margin: auto;
+}
+
+/* Lyrics Section Styles */
+.lyrics {
+    background-color: darkgrey;
+    padding: 1.5em;
+    margin-bottom: 2em;
+    border-radius: 8.5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.lyrics h3 {
+    font-family: 'poppins', serif;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 0.5em;
+}
+
+.lyrics p {
+    font-family: 'fantasy', sans-serif;
+    font-size: 1.2em;
+    line-height: 1.5;
+}
+
+/* Media Section Styles */
+.media {
+    text-align: center;
+}
+
+.media h3 {
+    font-family: 'poppins', serif;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 0.5em;
+}
+
+.media img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 1em;
+}
+
+.media .video {
+    margin-top: 1.5em;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #282828;
+    color: #fff;
+    text-align: center;
+    padding: 1.5em 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
