@@ -1,0 +1,69 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Welcome to the world of Sweet Tooth - The best candy in town!">
+    <title>KITKAT.CA</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Custom fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+    <h1>KITKAT</h1>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section id="home">
+        <h2>KITKAT, HAVE A BREAK HAVE A KITKAT</h2>
+        <p>Experience the perfect balance of crispy wafer and smooth milk chocolate with KitKat. Break off a piece and enjoy a moment of pure delight!</p>
+        <img src="image/R.jpg" alt="Assorted candies">
+    </section>
+
+    <section id="products">
+        <h2>Our Products</h2>
+        <div class="product">
+            <h3>Nestle Kitkat Chunky</h3>
+            <img src="image/OIP.jpg" alt="Chocolate Bar">
+        </div>
+        <div class="product">
+            <h3>Kitkat Pops</h3>
+            <img src="image/pop.jpg" alt="Kitkat Pops">
+        </div>
+        <div class="product">
+            <h3>Kitkat Classic Milk Wafer</h3>
+            <img src="image/wafer.jpg" alt="Kitkat Miniatures">
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form action="submit_form.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+</main>
+
+<footer>
+    <div class="footer-content">
+        <img src="image/logo.png" alt="Kitkat" class="logo">
+        <p>&copy; 2024 KITKAT. All rights reserved.</p>
+    </div>
+</footer>
+</body>
+</html>
